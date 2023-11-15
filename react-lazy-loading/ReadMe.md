@@ -8,7 +8,9 @@ e.g
 
 Static Import Declaration:
 
-```import MarkdownPreview from './MarkdownPreview.js';```
+```
+import MarkdownPreview from './MarkdownPreview.js';
+```
 
 Dynamic Importing (Lazy-loading):
 
@@ -18,4 +20,4 @@ import { lazy } from 'react';
 const MarkdownPreview = lazy(() => import('./MarkdownPreview.js'));
 ```
 
-### For a more detailed lazy-loading explaination and usage click [!here](https://react.dev/reference/react/lazy#usage)
+### For a more detailed lazy-loading explaination and usage click [here](https://react.dev/reference/react/lazy#usage)
